@@ -1,0 +1,11 @@
+{
+  "references": [
+    { "path": "./tsconfig.node.json" },
+    { "path": "./tsconfig.app.json" }
+  ],
+  "include": [
+    "src/**/*",
+    "src/types/global.d.ts" // 包含全局类型声明文件
+  ],
+  "exclude": ["node_modules", "dist", "**/*.spec.ts"] // 建议添加排除项
+}

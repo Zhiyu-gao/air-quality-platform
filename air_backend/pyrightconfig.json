@@ -1,0 +1,29 @@
+{
+  "include": [
+    "."
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "**/migrations",
+    "**/.git"
+  ],
+  "ignore": [
+    "**/migrations/*"
+  ],
+  "reportMissingImports": false,
+  "reportMissingTypeStubs": false,
+  "reportAttributeAccessIssue": "none",
+  "pythonVersion": "3.8",
+  "pythonPlatform": "All",
+  "executionEnvironments": [
+    {
+      "root": ".",
+      "pythonVersion": "3.8",
+      "pythonPlatform": "All",
+      "extraPaths": [
+        "."
+      ]
+    }
+  ]
+} 
